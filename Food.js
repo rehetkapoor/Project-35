@@ -10,7 +10,7 @@ class Food {
         var y=100;
 
         imageMode(CENTER);
-        image(this.image, 420, 220, 70, 70);
+        //image(this.image, 420, 220, 70, 70);
 
         if(this.foodStock!==0){
             for(var i=0; i<this.foodStock; i++){
@@ -18,7 +18,7 @@ class Food {
                     x=80;
                     y+=50;
                 }
-                image(this.image, x, y, 50, 50);
+                image(this.image, x+25, y, 50, 50);
 
                 x+=30;
             }
